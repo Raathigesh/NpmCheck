@@ -3,7 +3,7 @@ var app = express();
 var http = require('http');
 var server = http.createServer(app);
 var npmName = require('npm-name');
-var port = 80;
+var port = process.env.PORT || 5000;
 
 app.get('/status', function internalStaus(req, res){
 	res.send('API server running.');
