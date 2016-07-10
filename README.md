@@ -1,1 +1,1 @@
-# NpmCheck
+# NpmCheck - http://npmcheck.info/
